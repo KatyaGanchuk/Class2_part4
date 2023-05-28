@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main() {
+ int N ;
+  int K=1;
+  cout << "Imput N >0";
+  cin >> N;
+  while (K*K <= N) {
+   ++K;
+  }
+  cout << "min positive integer K" << K << endl;
+}
