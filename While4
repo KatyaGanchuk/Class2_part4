@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main() {
+int n;
+ cout<<"Imput n";
+ cin>>n;
+ while (n > 0) n -= 3;
+ if (n == 0)
+ cout << "True";
+ else
+ cout << "False";
+}
