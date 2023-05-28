@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main() {
+ float p;
+    int k = 1;
+    float d = 10, s = 10;
+    cout << "Imput p";
+    cin >> p;
+   
+    while (s <= 200) {
+        ++k;
+        d += d * p / 100;
+        s += d;
+    }
+    cout<<"k"<<k<<endl;
+	cout<<"s"<<s<<endl;
+}
