@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main() {
+int n;
+ cout<<"Imput n";
+ cin>>n;
+ float answer = 1;
+ while (n >= 2) {
+ answer *= n;
+ n -= 2;
+ }
+ cout<< answer<<endl;
+}
